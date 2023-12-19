@@ -1,0 +1,15 @@
+{
+  "name": "esm-neon",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "0.6.0",
+    "bufferutil": "~4.0.8",
+    "utf-8-validate": "~6.0.3",
+    "ws": "~8.15.1"
+  }
+}

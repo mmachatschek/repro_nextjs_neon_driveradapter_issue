@@ -1,0 +1,21 @@
+{
+  "name": "esm-prisma",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "npm run generate",
+    "start": "node index.mjs",
+    "generate": "prisma generate",
+    "migrate": "prisma db push"
+  },
+  "dependencies": {
+    "@prisma/adapter-neon": "5.8.0-dev.38",
+    "@prisma/client": "5.8.0-dev.38",
+    "prisma": "5.8.0-dev.38",
+    "@neondatabase/serverless": "0.6.0",
+    "bufferutil": "~4.0.8",
+    "utf-8-validate": "~6.0.3",
+    "ws": "~8.15.1"
+  }
+}
